@@ -26,8 +26,6 @@
         } else if (timer <= 0) {
             clearInterval(countdown)
            document.getElementById('timersss');
-        } else {
-            console.log("Happy New Year!");
         }
 
     }, 1000);
