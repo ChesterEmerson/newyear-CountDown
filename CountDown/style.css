@@ -70,4 +70,11 @@ body {
     justify-content: center; /* Horizontally align center */
     align-items: center; /* Vertically align center */
   }
-
+  @media screen and (max-width: 900px) {
+    .container, .containers {
+        margin: auto 10px;
+    }
+    .p, h1 {
+        font-size: 2.5rem;
+    }
+}
